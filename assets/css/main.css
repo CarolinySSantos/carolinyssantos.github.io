@@ -1,0 +1,39 @@
+/* comentario: Linha de cpodigo que será ignorado */
+
+/* Organizando o arquivo CSS */
+
+/* Limpando o navegador. CSS Reset */
+
+/*
+inherit - Herança explicita.
+initial - Força a redefinição de valores.
+unset - Desabilita uma propriedade CSS.
+*/
+
+
+
+body, h1,h2, h3, h4, h5, h6{
+   margin: 0;
+   padding: 0;
+   outline: 0;
+}
+* {
+    box-sizing: border-box
+}
+
+body {
+    background-color: #333;
+    color: #e4e4e4;
+}
+
+/* Quando a largura minima for de 768px aplique este CSS */
+@media (min-width: 768px){
+    /* especificidade CSS. Quanto maior a especifico o seletor, mais importante. */
+   html body {
+        background-color: rgb(47, 170, 129); /* unset */
+        color: initial;
+    }
+   body {
+       background: red;
+   }
+}

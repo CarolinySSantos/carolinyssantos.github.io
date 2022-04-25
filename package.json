@@ -1,0 +1,17 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "Lista de Ttarefas baseado no Microsoft To Do",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "html",
+    "css3",
+    "js",
+    "node"
+  ],
+  "author": "Caroliny Santoss",
+  "license": "MIT"
+}
